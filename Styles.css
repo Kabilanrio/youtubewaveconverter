@@ -1,0 +1,538 @@
+/* Reset some default styles */
+body, h1, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Dark theme styles for the header */
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.cta-button {
+    background-color: #ff5733;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #e6482e;
+}
+/* Dark theme styles for the hero section */
+.hero {
+    background-color: #222;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-subheading {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #ff5733;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #e6482e;
+}
+
+/* Style your hero image or video here */
+.hero-image {
+    /* Add styling for your hero image or video here */
+}
+/* Dark theme styles for the Features section */
+.features {
+    background-color: #333;
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.features .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.feature {
+    flex: 0 1 calc(33.33% - 40px);
+    margin: 20px;
+    padding: 20px;
+    background-color: #444;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.feature-icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.feature-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.feature-description {
+    font-size: 18px;
+}
+
+/* Use Font Awesome for feature icons */
+.fa {
+    font-family: FontAwesome;
+}
+/* Dark theme styles for the How It Works section */
+.how-it-works {
+    background-color: #333;
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.how-it-works .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.step {
+    flex: 0 1 calc(33.33% - 40px);
+    margin: 20px;
+    padding: 20px;
+    background-color: #444;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.step-number {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.step-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.step-description {
+    font-size: 18px;
+}
+/* Dark theme styles for the Testimonials section */
+.testimonials {
+    background-color: #333;
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.testimonials .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.testimonial {
+    flex: 0 1 calc(33.33% - 40px);
+    margin: 20px;
+    padding: 20px;
+    background-color: #444;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.testimonial img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.testimonial-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.testimonial-author {
+    font-size: 16px;
+    font-weight: bold;
+}
+/* Dark theme styles for the FAQ section */
+.faq {
+    background-color: #333;
+    color: #fff;
+    padding: 80px 0;
+}
+
+.faq .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section-heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.faq-item {
+    margin-bottom: 30px;
+}
+
+.faq-question {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.faq-answer {
+    font-size: 18px;
+}
+/* Dark theme styles for the About Us section */
+.about-us {
+    background-color: #333;
+    color: #fff;
+    padding: 80px 0;
+}
+
+.about-us .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.about-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+/* Dark theme styles for the Contact section */
+.contact {
+    background-color: #333;
+    color: #fff;
+    padding: 80px 0;
+}
+
+.contact .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.contact-form h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact-form form {
+    text-align: left;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    background-color: #ff5733;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #e6482e;
+}
+/* Dark theme styles for the Footer section */
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer-menu ul {
+    list-style: none;
+}
+
+.footer-menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+/* Use Font Awesome for social media icons */
+.fa {
+    font-family: FontAwesome;
+}
+/* Dark theme styles for the Trust and Security Badges section */
+.trust-and-security-badges {
+    background-color: #333;
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.trust-and-security-badges .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.badge {
+    flex: 0 1 calc(33.33% - 20px);
+    margin: 20px;
+}
+
+.badge img {
+    max-width: 100%;
+    height: auto;
+}
+
+.badge-description {
+    font-size: 18px;
+    margin-top: 10px;
+}
+/* Dark theme styles for the Responsive Design section */
+.responsive-design {
+    background-color: #333;
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.responsive-design .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section-heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.responsive-preview img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.section-description {
+    font-size: 18px;
+}
+/* Dark theme styles for the Footer Navigation section */
+.footer-navigation {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-navigation .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer-menu ul {
+    list-style: none;
+}
+
+.footer-menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+/* Dark theme styles for the CTA Buttons section */
+.cta-buttons {
+    background-color: #333;
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.cta-buttons .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section-heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.section-description {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff5733;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #e6482e;
+}
